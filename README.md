@@ -25,7 +25,7 @@ The application, by default runs on localhost:5000/
 	 displays author names and the number of posts written by them
 	 (the data is fetched using requests module)
 5.3) http://localhost:8080/setcookie - Sets cookies with variables 'name' and 'age'
-5.4) http://localhost:8080/getcookies - Displays the stored cookie key-values
+5.4) http://localhost:8080/getcookies - Displays the stored cookie key-value
 5.5) http://localhost:8080/robots.txt - Request to robots.txt file is denied with an appropriate denial response message
 5.6) http://localhost:8080/image - Returns an image file stored in static* directory
 5.7) http://localhost:8080/image - Renders an html page (home.html) stored in templates* directory
