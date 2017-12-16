@@ -35,4 +35,5 @@ a) static - to store all the static files we want to send as a response to vario
 b) templates - stores html templates to be rendered in response to certain requests  
 
 NOTE: Our application might often run into exceptions, so it is necessary to know the source of error.
-For this we can run the application in DEBUG mode by setting the FLASK_DEBUG environment variable : ```export FLASK_DEBUG=1```
+For this we can run the application in DEBUG mode by setting the FLASK_DEBUG environment variable : ```export FLASK_DEBUG=1```  
+This will show the error traceback in browser.
