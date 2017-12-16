@@ -5,10 +5,11 @@ It has been developed on a virtual environment on Python3.
 
 1. We begin with by creating a virtual environment.
 This can be done from command line as: ```virtualenv venv``` (venv - name of environment)
-(Since I am using Anaconda on Linux, I install virtualenv as ```conda install virtualenv```. There are other ways for other platforms/distributions)
+(Since I am using Anaconda on Linux, I install virtualenv as ```conda install virtualenv```.
+There are other ways for other platforms/distributions)
 
 2. We then activate our environment: ```./venv/bin/activate```
-NOTE: After finishing off our work, we can deactivate the environment: deactivate
+NOTE: After finishing off our work, we can deactivate the environment: ```deactivate```
 
 3. We tell the terminal the application to be loaded, by setting the FLASK_APP environment variable: 
 ```export FLASK_APP=hello_world.py```
