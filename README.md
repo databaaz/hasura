@@ -1,4 +1,4 @@
-This is the backedn of a simple web-app, developed on Python Flask, as a part of Hasura Internship.
+This is the backend of a simple web-app, developed on Python Flask, as a part of Hasura Internship.
 The file hello_world.py handles various HTTP requests (listed below).
 It has been developed on a virtual environment on Python3.
 
