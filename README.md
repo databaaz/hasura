@@ -11,7 +11,7 @@ This can be done from command line as: virtualenv venv(name of environment)
 NOTE: After finishing off our work, we can deactivate the environment: deactivate
 
 3. We tell the terminal the application to be loaded, by setting the FLASK_APP environment variable: 
-   export FLASK_APP=hello_world.py
+export FLASK_APP=hello_world.py
 
 4. Now we can run our application on localhost. This can be done in 2 ways:
 4.1) Using the flask command: flask run
