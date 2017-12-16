@@ -1,21 +1,21 @@
-This is the backedn of a simple web-app, developed on Python Flask, as a part of Hasura Internship.
+This is the backend of a simple web-app, developed on Python Flask, as a part of Hasura Internship.
 The file hello_world.py handles various HTTP requests (listed below).
 It has been developed on a virtual environment on Python3.
 
 
 1. We begin with by creating a virtual environment.
-This can be done from command line as: virtualenv venv(name of environment)
-(Since I am using Anaconda on Linux, I install virtualenv as conda install virtual env. There are other ways for other platforms/distributions)
+This can be done from command line as: ```virtualenv venv``` (venv - name of environment)
+(Since I am using Anaconda on Linux, I install virtualenv as ```conda install virtualenv```. There are other ways for other platforms/distributions)
 
-2. We then activate our environment: ./venv/bin/activate
+2. We then activate our environment: ```./venv/bin/activate```
 NOTE: After finishing off our work, we can deactivate the environment: deactivate
 
 3. We tell the terminal the application to be loaded, by setting the FLASK_APP environment variable: 
-   export FLASK_APP=hello_world.py
+```export FLASK_APP=hello_world.py```
 
 4. Now we can run our application on localhost. This can be done in 2 ways:
-4.1) Using the flask command: flask run
-4.2) Using python command with -m switch with flask: python -m flask run 
+4.1) Using the flask command: ```flask run```
+4.2) Using python command with -m switch with flask: ```python -m flask run ```
 The application, by default runs on localhost:5000/
 
 5. Our application handles following requests at the moment:
@@ -34,3 +34,6 @@ The application, by default runs on localhost:5000/
 * In addition to out application file, There are 2 additional directories:
 a) static - to store all the static files we want to send as a response to various requests
 b) templates - stores html templates to be rendered in response to certain requests
+
+NOTE: Our application might often run into exceptions, so it is necessary to know the source of error.
+For this we can run the application in DEBUG mode by setting the FLASK_DEBUG environment variable : ```export FLASK_DEBUG=1```
